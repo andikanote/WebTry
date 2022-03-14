@@ -3,7 +3,7 @@ ${BROWSER}                          mychrome
 ${DEFAULT_TIMEOUT}                  20
 ${LONG_TIMEOUT}                     40
 ${DELAY}                            0.2
-${HOST_WEBMOB}                      https://staging-m.misteralad.in/
+${HOST_WEBMOB}                      https://staging.misteralad.in/
 ${HOST_WEBDES}                      https://staging.misteralad.in/
 ${DEFAULT_TEST_TIMEOUT}             4 minutes
 ${LONG_TEST_TIMEOUT}                9 minutes

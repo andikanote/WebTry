@@ -13,10 +13,10 @@ Resource                        /Users/andikaprananto/PycharmProjects/WebTry/Fra
 
 *** Keywords ***
 Open MyHeadless Keyword
-#    ${options}=         Evaluate  sys.modules['selenium.webdriver'].ChromeOptions()  sys, selenium.webdriver
-#    Call Method         ${options}      add_argument        --headless
-#    #my_create_webdriver   Chrome  ${options}
-    Open Browser        ${HOST_WEBMOB}          Chrome
+    ${options}=         Evaluate  sys.modules['selenium.webdriver'].ChromeOptions()  sys, selenium.webdriver
+    Call Method         ${options}      add_argument        --headless
+    #my_create_webdriver   Chrome  ${options}
+    Open Browser        ${HOST_WEBMOB}           ff
     Maximize Browser Window
 
 Close Browser
